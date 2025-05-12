@@ -3,6 +3,8 @@
  * when an object of a class is created.
  * To create a constructor, use the same name as the class, 
  * followed by parentheses ():
+ * 
+ * source: https://www.w3schools.com
  */
 
 #include <string.h>

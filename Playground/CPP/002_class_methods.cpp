@@ -7,6 +7,8 @@
  *  In the following example, we define a function inside the class, and we name it "myMethod".
  * You access methods just like you access attributes; by creating an object of the class
  *  and using the dot syntax (.):
+ * 
+ * source: https://www.w3schools.com
  */
 
 #include <string.h>
