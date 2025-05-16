@@ -2,7 +2,7 @@
  * The <ctime> library allows us to work with dates and times.
  * To use it, you must import the <ctime> header file
  * 
- * source: https://www.w3schools.com/cpp/cpp_date_time.asp
+ * source: https://www.w3schools.com
  */
 
 #include <iostream>
