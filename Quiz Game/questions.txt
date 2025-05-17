@@ -1,2 +1,5 @@
 What is 2+2?, A) 3 ,B) 4 C) 5, 1
 Capital of France?, A) London, B) Paris, C) Berlin, 1
+Capital of Kenya?, A) Nairobi, B) Paris, C) Berlin, 1
+Capital of Tanzania?, A) Dar, B) Paris, C) Berlin, 1
+Capital of Uganda?, A) Kampala, B) Paris, C) Berlin, 1
