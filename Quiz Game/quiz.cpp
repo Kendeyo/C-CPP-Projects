@@ -14,8 +14,23 @@
 #include <fstream>
 #include <vector>
 #include <sstream>
-using namespace std;
+using namespace std; //standard library components are contained in the std namespace
 
+/**
+ * NOTE: while adding `using namespace std;` can make the code shorter,
+ *  it's generally considered bad practice, especially in headers or larger projects,
+ *  because it can lead to name collisions. For example, if someone defines a function
+ *  or variable with the same name as something in the standard library, it could cause ambiguity.
+ * 
+ * 
+ * You can selectively import specific symbols to skip std:::
+ * ---------------------------
+ * cpp
+ * using std::cout;     // Now you can write "cout" instead of "std::cout"
+ * using std::vector;   // Now you can write "vector" instead of "std::vector"
+ * 
+ * But this is still explicit and safer than importing the entire std namespace.
+ */
 
 struct Question {
     string text;
@@ -28,7 +43,7 @@ vector<Question> loadQuestions(const string& filename) {
     ifstream file(filename);
     string line;
 
-    while (std::getline(file, line)) {
+    while (getline(file, line)) {
         Question q;
         stringstream ss(line);
         string token;
